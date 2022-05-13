@@ -1,0 +1,22 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~antd/dist/antd.css';
+
+.app {
+  & > .curd-wrap{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+}
+
+.ant-select-selector,
+.ant-picker,.ant-input {
+  border-radius: 8px !important;
+}
+.ant-btn,.ant-input {
+  height: 40px;
+}

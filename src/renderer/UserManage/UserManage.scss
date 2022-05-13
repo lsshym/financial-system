@@ -1,0 +1,46 @@
+.search-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  & > .user-search {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    font-size: 20px;
+    .search-name {
+      margin-right: 24px;
+    }
+  }
+  & > .user-control {
+    margin-right: 50px;
+    .ant-btn {
+      font-size: 20px;
+      margin: 0 8px;
+      border-radius: 8px;
+    }
+  }
+}
+.add-new-user {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  & > span {
+    width: 250px;
+  }
+}
+.delete-user-modal {
+ 
+  .span-name {
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+  }
+  .delete-div {
+    & > .ant-row{
+      margin: 24px 0;
+    }
+  }
+}
